@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Anatomy Lab</title>
+    <!-- bootstrap的css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- 自己的css -->
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <div class="super_container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header_container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="header_content d-flex flex-row align-items-center justify-content-start">
+                                <div class="logo"><a href="index.html">Ani.Lab.</a></div>
+                                <nav class="main_nav">
+                                    <ul>
+                                        <li>
+                                            <a href="project.html">Restart</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Background</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <!-- 故事欄 -->
+    <div class="wrapper">
+        <div class="container-lg">
+            <div class="text-center">
+                <h1>
+                    <span>第一天進實驗室</span>
+                </h1>
+            </div>
+            <!-- 1-0 引言 -->
+            <div>
+                <div class="p-container">
+                    <div class="paragraph">
+                        <p>
+                            大三上學期，你終於如願以償進入動物解剖生理實驗室。結束了一天的課程，晚間時你打算前往老師辦公室致意，經過生理實驗室卻看到教室燈亮著，你心想，誰會在這個時間做實驗？而你走進去...
+                        </p>
+                    </div>
+                </div>
+                <!-- 1-0 選項（進入主線故事）-->
+                <div class="text-center">
+                    <a class="btn btn-light answer 1-0" href="#1-0" role="button">譴責學弟妹在裡面打麻將</a>
+                    <br>
+                    <a class="btn btn-light answer 1-0" href="#1-0" role="button">關心學弟妹的實驗狀況</a>
+                </div>
+            </div>
+            <!-- 1-0 結果（進入主線）-->
+            <div class="text-center result" id="1-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">映入眼簾的是兩個學妹，與他們手上的實驗大鼠</h2>
+                        <a class="card-link 1-1" href="#1-1">「繼續」</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1-1 學妹們 -->
+            <div class="story" id="1-1">
+                <div class="text-center">
+                    <h1>生理實驗室內</h1>
+                </div>
+                <div class="p-container">
+                    <div class="paragraph">
+                        <p>
+                            <img src="image/大鼠保定.jpg" class="rounded" alt="大鼠保定"><br>
+                            學妹1「保定大鼠也太難了吧...。」<br>
+                            學妹2「對啊...何況還要打麻醉。」<br>
+                            "學妹真是勤奮啊...不對不對，這個時間做實驗也太怪異了吧"<br>
+                            懷著不安的心情，你決定...
+
+                        </p>
+                    </div>
+                </div>
+                <!-- 1-1選項（是否離開）-->
+                <div class="text-center">
+                    <a class="btn btn-light answer 1-1-a" href="#1-1-a" role="button">先去教授的研究室好了</a>
+                    <br>
+                    <a class="btn btn-light answer 1-1-b" href="#1-1-b" role="button">詢問學妹有什麼需要幫忙的</a>
+                </div>
+            </div>
+
+            <!-- 1-1 結果a（教授不在）-->
+            <div class="text-center result" id="1-1-a">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">走到研究室前，發現門是上鎖的，裡面的燈也關著。<br>"教授應該已經走了呢"</h2>
+                        <a href="#1-1-b" class="card-link 1-1-b">「回到實驗室」</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1-1-b 實驗室內 -->
+            <div class="story" id="1-1-b">
+                <div class="text-center">
+                    <h1>生理實驗室內</h1>
+                </div>
+                <div class="p-container">
+                    <div class="paragraph">
+                        <p>
+                            我「有什麼需要幫忙的嗎？我是生理實驗室新來的助手，應該能幫上小忙。」<br>
+                            學妹1「我們不太會保定大鼠，請問怎樣是正確的方式？」
+
+                        </p>
+                    </div>
+                </div>
+                <!-- 1-1-b 選項 (保定方法) -->
+                <div class="text-center">
+                    <a class="btn btn-light answer 1-2" href="#1-2" role="button">左手食指與拇指，將大鼠的肩胛骨向前推擠伸展，右手固定尾巴</a>
+                    <br>
+                    <a class="btn btn-light answer 1-1-c" href="#1-1-c" role="button">將大鼠的後頸肉拉起</a>
+                </div>
+            </div>
+
+            <!-- 1-1-b 結果1-1-c 保定失敗 -->
+            <div class="text-center result" id="1-1-c">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">大鼠的頭沒被固定，他趁機反咬了你一口。</h2>
+                        <a href="#1-1-b" class="card-link 1-1-b">「重新綁定」</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1-2 保定完成 -->
+            <div class="story" id="1-2">
+                <div class="p-container">
+                    <div class="paragraph">
+                        <p>
+                            <img src="image/麻醉.jpg" class="rounded" alt="大鼠麻醉"><br>
+                            我「好的保定會讓大鼠四肢與頭部無法亂動，避免麻醉或抽血時造成操作員或大鼠受傷。」<br>
+                            學妹2「學姊好專業~」 <br>
+                            學妹1「學姊學姊，那我們該如何進行解剖呢？」<br>
+                            "突然開始懷疑她們到底是不是我們系的學妹..."<br>
+                            這時候你會...
+
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 選擇1-2（是否要幫忙）-->
+                <div class="text-center">
+                    <a class="btn btn-light answer 1-2-a" href="#1-2-a" role="button">擔心惹麻煩上身，走為上策</a>
+                    <br>
+                    <a class="btn btn-light answer 1-2-b" href="#1-3" role="button">以後要當助教呢！當然要熱心教導學妹</a>
+                </div>
+            </div>
+
+            <!-- 1-2 結果a（先走）-->
+            <div class="text-center result" id="1-2-a">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">隔天，你到實驗室時 <br> 發現所有的大鼠都奄奄一息...</h2>
+                    </div>
+                    <div class="paragraph">
+                        <p>
+                            <img src="image/死掉ㄌ.jpg" class="rounded" alt="奄奄一息的大鼠">
+                            為了我大動科系的未來著想，不可以放棄任何一個學弟妹!<br>
+                            (還有大鼠嗚嗚嗚)<br>
+                            *避免引起不適，特此說明圖中大鼠並未死亡，只是睡了一下^^
+                        </p>
+                    </div>
+                    <!-- 返回建 -->
+                    <a href="#1-2" class="card-link 1-2-back">「回到昨天晚上」</a>
+                </div>
+            </div>
+
+            <!-- 1-3 幫助學妹 -->
+            <div class="story" id="1-3">
+                <div class="p-container">
+                    <div class="paragraph">
+                        <p>
+                            我「進行手術前一定要將桌面、手術器具、手部與大鼠進行手術之部位以酒精消毒，避免大鼠在術後細菌感染而死亡。」<br>
+                            學妹2「為了延續大鼠的性命一定要好好消毒！」<br>
+                            我「話說，你們解剖這隻老鼠要幹嘛啊？」<br>
+                            學妹1「我們...只是要學習解剖啦。」<br>
+                            "但這個時間點怎麼想都不對阿阿阿"<br>
+                            忍著頭皮發麻的感覺，只好繼續教她們了。接下來你該...
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 選擇1-3（手術進行中）-->
+                <div class="text-center">
+                    <a class="btn btn-light answer 1-3-a" href="#1-3-a" role="button">邊做邊教他們如何幫公鼠去勢</a>
+                    <br>
+                    <a class="btn btn-light answer 1-3-b" href="#1-3-b" role="button">慢慢解說大鼠的詳細資訊</a>
+                </div>
+            </div>
+
+            <!-- 1-3 結果a（快狠準）-->
+            <div class="text-center result" id="1-3-a">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">你先在大鼠的陰部剪出一個洞</h2>
+                        <a href="#1-4" class="card-link 1-4">「繼續」</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1-3 結果b（慢郎中）-->
+            <div class="text-center result" id="1-3-b">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">在你漫長的解說中，大鼠的麻醉早已退去。<br>你並未注意到大鼠的異狀便動刀了...</h2>
+                    </div>
+                    <div class="paragraph">
+                        <p>
+                            在未麻醉的狀態下為大鼠動刀十分地危險，不僅大鼠的死亡機率會大幅上升，操作員也可能因大鼠掙扎而誤傷自己。手術的進行必須快狠準，因此必須在動刀前就具備充足的知識與對手術的理解，認真上課或寫預報都是方法之一。
+                        </p>
+                    </div>
+                    <!-- 返回鍵 -->
+                    <a href="#1-3" class="card-link 1-3-back">「回到動刀前」</a>
+                </div>
+            </div>
+
+            <!-- 1-4 去勢 -->
+            <div class="story" id="1-4">
+                <div class="p-container">
+                    <div class="paragraph">
+                        <p>
+                            <img src="image/睪丸摘除.jpg" class="rounded" alt="睪丸摘除"><br>
+                            我「解剖的傷口盡量越小越好，才能減低對大鼠的傷害。」<br>
+                            學妹2「為什麼每次都是公鼠被去勢...」<br>
+                            我「嗯你說什麼？」 <br>
+                            學妹1「啊啊他說，去勢手術有什麼需要特別注意的嗎？」<br>
+                            "感覺不是這句...算了算了"<br>
+                            我「如果沒有先結紮再切除睪丸，會造成大鼠失血過多而死亡。」<br>
+                            接下來你該...
+
+                        </p>
+                    </div>
+                </div>
+                <!-- 選擇1-4（要不要切掉）-->
+                <div class="text-center">
+                    <a class="btn btn-light answer 1-4-a" href="#1-4-a" role="button">饒過這隻可憐的公鼠</a>
+                    <br>
+                    <a class="btn btn-light answer 1-5" href="#1-5" role="button">切蛋蛋嘍！！！</a>
+                </div>
+            </div>
+
+            <!-- 1-4 結果a（不切吧）-->
+            <div class="text-center result" id="1-4-a">
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="card-title">？都切開了不機會教育一下太可惜了</h2>
+                        <a href="#1-4" class="card-link 1-4-back">「繼續手術」</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 1-5（切了）-->
+            <div class="story" id="1-5">
+                <div class="p-container">
+                    <div class="paragraph">
+                        <p>
+                            <img src="image/大鼠睪丸.jpg" class="rounded" alt="睪丸"><br>
+                            我「公鼠失去單側睪丸並不會嚴重影響其生理狀況，甚至會有睪固酮上升的現象，但若完全切除則會造成睪固酮分泌過低，而有性功能障礙、情緒障礙與心血管疾病等影響。」<br>
+                            學妹1「原來是這樣啊...」<br>
+                            "為什麼是這種惋惜的口氣...？"<br>
+                        </p>
+                    </div>
+
+                </div>
+                <!-- 連到結局 -->
+                <div class="text-center">
+                    <a class="btn btn-light answer end" href="#end" role="button">「進行縫合」</a>
+                </div>
+            </div>
+
+            <!-- end 縫合 -->
+            <div class="story" id="end">
+                <div class="p-container">
+                    <div class="paragraph">
+                        <p>
+                            <img src="image/縫合.jpg" class="rounded" alt="縫合">
+                            我「必須從傷口的正中央開始縫，才能縫得容易癒合又漂亮。」<br>
+                            我「時間晚了，詳細的技術你們以後再學吧，我得先離開了。」<br>
+                            學妹1、學妹2「好的謝謝學姊！」<br>
+                        </p>
+                        <br>
+                        <p>
+                            我將大鼠放回籠子，並整理完環境。<br>
+                            "難得學妹這麼好學，交個朋友吧。"<br>
+                            我「對了，你們叫什麼名子啊？」<br>
+                        </p>
+                        <br>
+                        <p>
+                            當我忙完打算和學妹們閒聊時，才發現他們已經不見了。<br>
+                            我「他們剛剛不是還挺有禮貌的嗎...算了以後總會遇到的。」<br>
+                        </p>
+                    </div>
+                </div>
+                <!-- Ending？ -->
+                <div class="p-container">
+                    <div class="paragraph">
+                        <p>
+                            至此之後，我從未在學校的任何角落遇到他們兩個。<br>
+                            但是我曾經做了一個夢，夢裡有兩隻老鼠相互依偎著。<br>
+                            <img src="image/兩隻老鼠.jpg" class="rounded" alt="兩隻老鼠">
+                        </p>
+                        <p>
+                            End
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 頁腳版權所有 -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="copyright">
+                Copyright & photo &copy; 林雨靜
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery的js -->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <!-- 自己的js -->
+    <script src="project.js"></script>
+</body>
+
+</html>
