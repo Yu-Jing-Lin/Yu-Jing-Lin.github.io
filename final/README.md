@@ -17,6 +17,6 @@
   2. 這個遊戲結合了我在動物科學技術學系一年所學之知識，讓期末專題也能寓教於樂！
 
 
-### Ref
+### Reference
 1. https://stackoverflow.com/questions/553402/how-to-fadeout-remove-a-div-in-jquery
 2. https://www.fooish.com/jquery/events.html
